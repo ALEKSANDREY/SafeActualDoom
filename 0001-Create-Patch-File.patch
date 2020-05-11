@@ -1,0 +1,29 @@
+From bf8430c88578c348125b24dd183c9101bedfae20 Mon Sep 17 00:00:00 2001
+From: Andrey Alexandrov <alexandrov_andrey@yahoo.com>
+Date: Mon, 11 May 2020 08:58:31 +0000
+Subject: [PATCH] Create Patch File
+
+---
+ client3.py | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/client3.py b/client3.py
+index df06a84..0f3769f 100644
+--- a/client3.py
++++ b/client3.py
+@@ -42,9 +42,9 @@ def getRatio(price_a, price_b):
+ 	""" Get ratio of price_a and price_b """
+ 	""" ------------- Update this function ------------- """
+ 	""" Also create some unit tests for this function in client_test.py """
+-    if (price_b == 0):
+-          	return
+-    return price_a/price_b
++        if (price_b == 0):
++              return
++        return price_a/price_b
+ 
+ # Main
+ if __name__ == "__main__":
+-- 
+2.17.1
+
